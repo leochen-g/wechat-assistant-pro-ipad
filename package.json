@@ -1,0 +1,39 @@
+{
+  "name": "wechat-assistant-ipad",
+  "version": "0.0.1",
+  "description": "微信小助手 ipad协议版本",
+  "main": "index.js",
+  "scripts": {
+    "pm2": "pm2 start pm2.json",
+    "stop": "pm2 stop wechaty-pro-ipad",
+    "restart": "pm2 restart wechat-pro-ipad",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo_chen",
+  "license": "MIT",
+  "keywords": [
+    "wechaty",
+    "mongoose",
+    "微信机器人",
+    "微信助手",
+    "node",
+    "js"
+  ],
+  "dependencies": {
+    "wechaty": "^0.68.1",
+    "wechaty-puppet-padlocal": "^0.4.2",
+    "wechaty-web-panel": "^1.0.3-beta.0"
+  },
+  "devDependencies": {
+    "pm2": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gengchen528/wechat-assistant-pro-ipad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gengchen528/wechat-assistant-pro-ipad/issues"
+  },
+  "homepage": "https://github.com/gengchen528/wechat-assistant-pro-ipad#readme"
+}
