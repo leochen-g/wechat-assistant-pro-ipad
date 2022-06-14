@@ -23,7 +23,7 @@
   "dependencies": {
     "wechaty": "^0.68.1",
     "wechaty-puppet-padlocal": "^0.4.2",
-    "wechaty-web-panel": "^1.0.3-beta.0"
+    "wechaty-web-panel": "^1.0.3-beta.1"
   },
   "devDependencies": {
     "pm2": "^4.2.3"
