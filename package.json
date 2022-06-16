@@ -1,6 +1,6 @@
 {
   "name": "wechat-assistant-ipad",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "微信小助手 ipad协议版本",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "wechaty": "^0.68.1",
     "wechaty-puppet-padlocal": "^0.4.2",
-    "wechaty-web-panel": "^1.0.3-beta.2"
+    "wechaty-web-panel": "^1.0.3-beta.3"
   },
   "devDependencies": {
     "pm2": "^4.2.3"
