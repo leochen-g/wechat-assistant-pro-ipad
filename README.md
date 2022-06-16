@@ -98,14 +98,14 @@ docker pull aibotk/wechat-assistant-ipad
 1、请在项目根目录执行，这个命令是前台执行可以直接看到log日志的，但是没法关闭，只能销毁终端实例
 
 ```shell
-docker run -e PAD_LOCAL_TOKEN="你申请的ipdalocaltoken" -e AIBOTK_KEY="微秘书apikey" -e AIBOTK_SECRET="微秘书apiSecret" --name=wechatbot aibotk/wechat-assistant
+docker run -e PAD_LOCAL_TOKEN="你申请的ipdalocaltoken" -e AIBOTK_KEY="微秘书apikey" -e AIBOTK_SECRET="微秘书apiSecret" --name=wechatbot aibotk/wechat-assistant-ipad
 
 ```
 
 2、这个命令可以在后台运行，多了一个`-d`
 
 ```shell
-docker run -d -e PAD_LOCAL_TOKEN="你申请的ipdalocaltoken" -e AIBOTK_KEY="微秘书apikey" -e AIBOTK_SECRET="微秘书apiSecret" --name=wechatbot aibotk/wechat-assistant
+docker run -d -e PAD_LOCAL_TOKEN="你申请的ipdalocaltoken" -e AIBOTK_KEY="微秘书apikey" -e AIBOTK_SECRET="微秘书apiSecret" --name=wechatbot aibotk/wechat-assistant-ipad
 
 ```
 
